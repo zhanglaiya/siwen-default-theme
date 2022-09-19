@@ -1,3 +1,7 @@
-.siwen {
-
+code {
+    background-color: #dddddd;
+    color: black;
+    padding: 1px 4px;
+    word-wrap: break-word;
+    font-size: 0.8em;
 }
