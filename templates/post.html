@@ -7,8 +7,10 @@
 </head>
 <body>
     <div id="content" style="margin: 0 auto; width:60%">
-        <h1>{{ settings.title }}</h1>
-        <span>{{ settings.date }}</span>
+        <div><h1>{{ settings.title }}</h1></div>
+        <div><i style="color:gray">{{ settings.date }}</i></div>
+        <br>
+        <div><span>123</span></div>
         <br>
         {{ content|safe }}
     </div>
